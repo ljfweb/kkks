@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<!--注册页面--------------------------------------------------------->
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/register.css"/>
+	</head>
+	<body>
+		<!--头部--------------------------------------------------------------------------------------->
+		<div id="head">
+			
+		</div>
+		<!--注册页面内容--------------------------------------------------------------------------------------->
+		<div id="main">
+			<div class="main_left">
+				<div class="le_radio">
+					<ul>
+						<li><input type="radio" checked="checked" name="" id="changePhone" value="" />用手机号注册</li>
+						<li><input type="radio" name="" id="changeMali" value="" />用邮箱注册</li>
+					</ul>
+				</div>
+				<div class="le_main">
+					<ul class="le_phone">
+						<li class="le_way le_phone_num">
+							<span>手机号码：</span>
+							<input type="text" placeholder="请输入有效的手机号码" autofocus id="phone_text" value="" />
+							<i></i>
+							<p>
+								<b>请输入有效的手机号码</b>
+							</p>
+						</li>
+						<li class="le_way le_Emali">
+							<span>邮箱：</span>
+							<input type="text" id="mali_text" value="" />
+							<i></i>
+							<p>
+								<b>邮箱的长度应在4-40之间</b>
+							</p>
+						</li>
+						<li class="le_code">
+							<span>验 证 码：</span>
+							<div class="le_code_text">
+								<input type="text" placeholder="请输入验证码" id="code_text" value="" />
+								<div class="code_text_mid">
+									<h1>abcd</h1>
+								</div>
+								<div class="code_text_last">
+									<a><img src="../img/register/refush.png"/>换一张</a>
+								</div>
+							</div>
+							<p>
+								<b>验证码长度为4位</b>
+							</p>
+						</li>
+						<li class="le_note_code">
+							<span>短信验证码：</span>
+							<div class="note_text">
+								<input type="text" placeholder="请输短信入验证码" id="note_text" value="" />
+							</div>
+							<div class="set_code">
+								<a href="#">获取验证码</a>
+							</div>
+							<p>
+								<b></b>
+							</p>
+						</li>
+						<li class="le_password le_pass">
+							<span>设置密码：</span>
+							<input type="text" placeholder="输入密码" id="pass_text" value="" />
+							<i></i>
+							<p>
+								<b>密码不能为空</b>
+							</p>
+						</li>
+						<li class="le_password le_con_pass">
+							<span>确认密码：</span>
+							<input type="text" placeholder="确认密码" id="con_pass_text" value="" />
+							<i></i>
+							<p>
+								<b>两次输入的密码不一致</b>
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div class="le_checked">
+					<input type="checkbox" checked="checked" name="" id="" value="" />
+					我已阅读并同意遵守
+					<a href="#">《富连网用户注册协议》</a>
+				</div>
+				<div class="le_sub">
+					<a>注册</a>
+				</div>
+			</div>
+			<div class="main_right">
+				<p>已注册账号？点击<a href="login.html">登录</a>或<a href="#">找回密码？</a></p>
+			</div>
+		</div>
+		<!--底部--------------------------------------------------------------------------------------->
+		<div id="base">
+			
+		</div>
+		<!--置顶--------------------------------------------------------------------------------------->
+		<div id="toTop">
+			
+		</div>
+	</body>
+	<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+</html>

@@ -1,0 +1,263 @@
+/*<!--导航栏---------------------------------------------------------------------->*/
+#navWrap{
+	width: 100%;
+	height: 40px;
+	background: #333;
+}
+#navCon{
+	position: relative;
+	width: 1200px;
+	height: 40px;
+	margin: 0 auto;
+	color: white;
+	font-size: 15px;
+}
+/*<!--所有商品分类----------------------------------->*/
+#navCon .nav_list_all{
+	position: relative;
+	float: left;
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	background: #1E76CF;
+	cursor: pointer;
+}
+#navCon .nav_list_all h2{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 17px 0 10px;
+	vertical-align: middle;
+	background: transparent url(../img/home/078.png) no-repeat 0 -280px;
+}
+#navCon .nav_list_all h3{
+	display: inline-block;
+	width: 14px;
+	height: 8px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: transparent url(../img/home/078.png) no-repeat 0 -163px;
+}
+/*<!--商品分类下拉列表---------------------------------->*/
+#navCon .list_all_con{
+	position: absolute;
+	width: 190px;
+	height: 450px;
+	top: 40px;
+	left: 0;
+	background: rgba(0,0,0,.7);
+	z-index: 99;
+}
+#navCon .list_all_con .list_all{
+	width: 190px;
+	height: 67px;
+}
+#navCon .list_all_con .list_all_back{background: white;}
+#navCon .list_all_con .list_all_back a{color: black;}
+#navCon .list_all dt{
+	position: relative;
+	width: 190px;
+	height: 67px;
+	overflow: hidden;
+}
+#navCon .list_all .all_gather{
+	position: relative;
+	height: 50px;
+	padding: 15px 0 0 41px;
+}
+#navCon .all_gather i{
+	position: absolute;
+	top: 15px;
+	left: 9px;
+	width: 20px;
+	height: 21px;
+	background: url(../img/home/075.png) no-repeat 0 0;
+}
+#navCon .all_gather .all_phone_icon{
+	background-position: 0 0;
+}
+#navCon .all_gather .all_PC_icon{
+	background-position: 0 -21px;
+}
+#navCon .all_gather .all_peripheral_icon{
+	background-position: 0 -42px;
+}
+#navCon .all_gather .all_homeAPP_icon{
+	background-position: 0 -63px;
+}
+#navCon .all_gather .all_tit{
+	color: white;
+	margin-bottom: 10px;
+	line-height: 1em;
+	text-overflow: clip;
+	font-size: 13px;
+	display: block;
+}
+#navCon .all_con em{
+	float: left;
+	max-width: 150px;
+	margin-right: 9px;
+	line-height: 1em;
+}
+.underline{
+	text-decoration: underline;
+}
+#navCon .all_con em a{
+	color: #d5d5d5;
+	font-size: 12px;
+}
+#navCon .list_all dd{
+	position: absolute;
+	top: 0;
+	left: 189px;
+	z-index: 1;
+	width: 1008px;
+	height: 448px;
+	background: white;
+	border: 1px solid #083353;
+	display: none;
+}
+#navCon .list_all .memu_list{
+	float: left;
+	width: 708px;
+	padding-top: 6px;
+}
+.memu_list_unline{text-decoration: underline;}
+.memu_list_unline a{color: #0000FF;}
+#navCon .memu_list ul{
+	vertical-align: bottom;
+}
+#navCon .memu_list li{
+	float: left;
+	width: 708px;
+	padding-top: 12px;
+}
+#navCon .memu_list .list_l{
+	float: left;
+	width: 114px;
+	text-align: right;
+	font-weight: bold;
+}
+#navCon  .list_l a{
+	color: #4a4a4a;
+	font-size: 13px;
+	line-height: 1em;
+	display: block;
+	padding-right: 12px;
+}
+#navCon .memu_list .list_r{
+	float: left;
+	width: 594px;
+	border-bottom: 1px solid #eee;
+}
+#navCon .list_r em{
+	float: left;
+	max-width: 330px;
+	border-left: 1px solid #838383;
+	margin-bottom: 12px;
+	padding:  0 12px;
+}
+#navCon .list_r a{
+	color: #838383;
+	white-space: nowrap;
+	width: auto;
+	line-height: 14px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+/*<!--商品专区----------------------------------->*/
+#navCon .nav_menu{
+	float: left;
+	width: 780px;
+	height: 40px;
+	line-height: 40px;
+}
+#navCon .nav_menu li{
+	position: relative;
+	float: left;
+	height: 40px;
+	padding: 0 22px;
+	text-align: center;
+}
+#navCon .nav_menu li:hover{background: black;cursor: pointer;}
+#navCon .nav_menu li img{
+	position: absolute;
+	top: -10px;
+	right: 0;
+}
+/*<!--个人信息----------------------------------->*/
+#navCon .nav_myInfor{
+	float: right;
+	width: 210px;
+	height: 40px;
+	line-height: 40px;
+}
+#navCon .nav_myInfor .myInfor_centre{
+	float: left;
+	width: 110px;
+	height: 40px;
+	margin-right: 3px;
+}
+#navCon .nav_myInfor .myInfor_centre:hover,#navCon .nav_myInfor .myInfor_car:hover{
+	cursor: pointer;
+	background: black;
+}
+#navCon .myInfor_centre i{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin: 0 6px;
+	vertical-align: middle;
+	background: transparent url(../img/home/078.png) no-repeat 0 -196px;
+}
+#navCon .nav_myInfor .myInfor_car{
+	position: relative;
+	float: left;
+	width: 97px;
+	height: 40px;
+}
+#navCon .myInfor_car i{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin: 0 6px;
+	vertical-align: middle;
+	background: transparent url(../img/home/078.png) no-repeat 0 -236px;
+}
+#navCon .myInfor_car .car_num{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: red;
+	color: white;
+	text-align: center;
+	line-height: 20px;
+	top: -10px;
+	right: 0;
+}
+#navCon .myInfor_car .car_con{
+	position: absolute;
+	width: 371px;
+	height: 64px;
+	border: 1px solid #444;
+	background: white;
+	top: 40px;
+	right: 0;
+	z-index: 66;
+	border-top: none;
+	display: none;
+}
+#navCon .car_con .car_con_empy{
+	width: 371px;
+}
+#navCon .car_con_empy img{
+	vertical-align: middle;
+	margin: 0 5px 0 100px;
+}
+#navCon .car_con_empy span{
+	display: inline-block;
+	line-height: 65px;
+	font-size: 12px;
+	color: #ababab;
+}

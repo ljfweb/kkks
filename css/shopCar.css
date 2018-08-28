@@ -1,0 +1,442 @@
+#head #headWrap,#head #search{
+	width: 990px;
+	margin: 0 auto;
+}
+#head .search_logo{
+	float: left;
+}
+#head .search_separate{
+	float: left;
+	width: 2px;
+	height: 38px;
+	background: #ccc;
+	margin: 15px 12px;
+}
+#head .search_title{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #777;
+	line-height: 63px;
+}
+#head .search_progress{float: right;}
+/*<!--购物车内容------------------------------------------------------------------------------->*/
+#carCon{
+	width: 990px;
+	margin: 0 auto;
+}
+#carCon .car_hint{
+	width: 990px;
+	height: 42px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 42px;
+	text-align: right;
+	border: 1px solid #e5c7a1;
+	background: #fffdee;
+	color: #7f7f7f;
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+#carCon .car_hint a{
+	float: right;
+	width: 58px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	background: #1e76cf;
+	color: white;
+	margin: 10px 0 0 10px;
+}
+#carCon .car_add{
+	width: 990px;
+	height: 36px;
+	padding: 0 10px;
+	box-sizing: border-box;
+	line-height: 36px;
+	border: 1px solid #E7E7E7;
+	text-indent: 1em;
+	background: #F8F8F8;
+	margin-bottom: 10px;
+}
+#carCon .car_add .add_panel{
+	position: relative;
+}
+#carCon .car_add .buyer_add{
+	position: absolute;
+	width: 160px;
+	height: 24px;
+	margin-top: 4px;
+	text-indent: 1em;
+	line-height: 24px;
+	font-size: 12px;
+	background: white;
+	border: 1px solid #BFBFBF;
+	cursor: pointer;
+}
+#carCon .add_arrow{
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 10px;
+	border: 4px solid #317EE7;
+	border-color: #317EE7 #fff #fff #fff;
+	margin: 0 10px;
+}
+#carCon .car_add .all_add{
+	position: absolute;
+	width: 528px;
+	height: 274px;
+	top: 25px;
+	left: 0;
+	padding: 10px;
+	box-sizing: border-box;
+	background: white;
+	border: 1px #BFBFBF solid;
+	box-shadow: 0 0 5px #AAA;
+	display: none;
+}
+#carCon .all_add_title p{
+	position: relative;
+	float: left;
+	width: 73px;
+	height: 22px;
+	margin-right: 5px;
+	line-height: 22px;
+	text-indent: 1em;
+	border: 1px solid #BFBFBF;
+	cursor: pointer;
+	font-size: 12px;
+}
+#carCon .all_add_con{
+	position: relative;
+	top: 23px;
+	width: 506px;
+	height: 228px;
+	padding: 13px 5px 13px 10px;
+	box-sizing: border-box;
+	border: 1px solid #317EE7;
+}
+#carCon .car_mainCon{width: 990px;border: 1px solid #e7e7e7;}
+#carCon .car_mainCon .empty_con{
+	width: 990px;
+	height: 218px;
+	padding: 70px 0 70px 300px;
+	box-sizing: border-box;
+	border: #e7e7e7 solid 1px;
+	background: white;
+	overflow: hidden;
+}
+#carCon .empty_con img{
+	float: left;
+	width: 66px;
+	height: 68px;
+}
+#carCon .empty_con dl{
+	margin-left: 90px;
+	overflow: hidden;
+}
+#carCon .empty_con dt{
+	font-size: 20px;
+	font-weight: bold;
+	color: #747474;
+}
+#carCon .empty_con dd{
+	margin-top: 10px;
+	color: #737272;
+	overflow: hidden;
+}
+#carCon .empty_con dd a{
+	margin: 0 5px;
+	color: #1E76CF;
+}
+#carCon .car_mainCon .car_content{
+	width: 990px;
+	background: white;
+	overflow: hidden;
+}
+#carCon .car_content .car_content_title{
+	width: 990px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	background: #f8f8f8;
+	border-bottom: 1px solid #e7e7e7;
+	color: #7F7F7F;
+}
+#carCon .car_content_title input{
+	float: left;
+	margin: 13px 10px 0px 9px;
+}
+#carCon .car_content_title li{float: left;}
+#carCon .car_data .car_combo{
+	width: 990px;
+	background: white;
+	border-bottom: 1px solid #e7e7e7;
+}
+#carCon .car_combo dl{
+	width: 990px;
+	height: 40px;
+	padding: 10px 0 11px 32px;
+	box-sizing: border-box;
+	color: #646464;
+	overflow: hidden;
+}
+#carCon .car_combo dt{
+	float: left;
+	width: 76px;
+	height: 17px;
+	line-height: 17px;
+	border: 1px solid red;
+	text-align: center;
+	font-size: 14px;
+}
+#carCon .car_combo dd{
+	float: left;
+	color: black;
+	font-size: 14px;
+	text-indent: 1em;
+}
+#carCon .car_combo pre{
+	width: 990px;
+	height: 56px;
+	padding: 20px 75px;
+	box-sizing: border-box;
+}
+#carCon .car_data .car_database{
+	width: 990px;
+	padding: 20px 0;
+	background: white;
+	overflow: hidden;
+	border-bottom: 1px solid #e7e7e7;
+}
+#carCon .car_database div{float: left;}
+#carCon .car_database .car_check{
+	width: 23px;
+	margin: 22px 0px 0px 9px;
+}
+#carCon .car_database .car_img{
+	width: 75px;
+	height: 75px;
+}
+#carCon .car_database .car_img img{
+	width: 73px;
+	height: 73px;
+	border: 1px solid #ccc;
+}
+#carCon .car_database .car_name{
+	width: 320px;
+	margin: 0px 70px 0px 11px;
+}
+#carCon .car_database .car_name p{
+	height: 44px;
+	line-height: 22px;
+	text-overflow: clip;
+	overflow: hidden;
+}
+#carCon .car_database .car_price{
+	width: 98px;
+	font-size: 12px;
+	color: #ff3333;
+}
+#carCon .car_database .car_num{
+	width: 84px;
+	height: 27px;
+	border: 1px solid #ccc;
+}
+#carCon .car_database .car_num img{
+	float: left;
+	cursor: pointer;
+}
+#carCon .car_database .car_num input{
+	float: left;
+	width: 46px;
+	height: 27px;
+	padding: 0 3px;
+	line-height: 27px;
+	text-align: center;
+	border: none;
+}
+#carCon .car_database .car_total{
+	width: 70px;
+	height: 29px;
+	line-height: 29px;
+	margin-left: 25px;
+	color: #7F7F7F;
+	font-size: 14px;
+}
+#carCon .car_database .car_state{
+	width: 80px;
+	height: 29px;
+	line-height: 29px;
+	text-align: center;
+	color: #7F7F7F;
+	font-size: 14px;
+}
+#carCon .car_database .car_collect{
+	width: 96px;
+	height: 22px;
+	line-height: 22px;
+	margin: 3px 0 0 16px;
+	font-size: 14px;
+}
+#carCon .car_database .car_collect img{
+	float: left;
+	width: 13px;
+	height: 13px;
+	text-decoration: none;
+	margin-top: 4px;
+}
+#carCon .car_database .car_collect span{
+	float: left;
+	margin-left: 8px;
+	color: #7F7F7F;
+}
+#carCon .car_database .car_collect a{
+	float: left;
+	width: 45px;
+	height: 22px;
+	font-size: 14px;
+	text-align: center;
+	color: #7F7F7F;
+}
+#carCon .car_mainCon .car_empty{
+	width: 988px;
+	font-size: 14px;
+	background: white;
+	overflow: hidden;
+}
+#carCon .car_empty .car_del{
+	width: 988px;
+	height: 81px;
+	padding: 0 9px;
+	box-sizing: border-box;
+	color: #7F7F7F;
+}
+#carCon .car_del .del_all{
+	float: left;
+	width: 335px;
+	margin-top: 25px;
+}
+#carCon .car_del .del_all input{
+	width: 23px;
+	text-align: left;
+	margin-top: 2px;
+}
+#carCon .car_del .del_all span{
+	display: inline-block;
+	margin-left: 5px;
+	cursor: pointer;
+}
+#carCon .car_del .del_price{
+	width: 970px;
+	height: 54px;
+	line-height: 55px;
+	text-align: right;
+	font-size: 14px;
+}
+#carCon .car_del .del_price p{
+	margin-left: 20px;
+}
+#carCon .car_del .del_price span{
+	font-size: 12px;
+	color: #ff3333;
+	margin-right: 5px;
+}
+#carCon .car_del .del_total{
+	width: 970px;
+	text-align: right;
+}
+#carCon .car_del .del_total span{
+	font-size: 12px;
+	color: #ff3333;
+}
+#carCon .car_empty .car_btn{
+	width: 968px;
+	height: 52px;
+	margin-top: 20px;
+	padding: 18px 10px 0;
+	background: #f8f8f8;
+}
+#carCon .car_btn .btn_close{
+	float: right;
+	width: 300px;
+	height: 40px;
+}
+#carCon .btn_close .close_buy{
+	float: left;
+	width: 140px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #7f7f7f;
+	text-align: center;
+	color: #7f7f7f;
+	border-radius: 2px;
+	margin-right: 24px;
+	font-size: 14px;
+	cursor: pointer;
+}
+#carCon .btn_close .close_clear{
+	float: left;
+	width: 130px;
+	height: 38px;
+	line-height: 38px;
+	background: #ff4749;
+	color: white;
+	text-align: center;  
+	border-radius: 2px;
+	font-size: 14px;
+	cursor: pointer;
+}
+#carCon .car_recom{
+	width: 989px;
+	margin: 30px 0;
+	border: 1px solid #E7E7E7;
+	background: white;
+}
+#carCon .car_recom .car_recom_title{
+	position: relative;
+	width: 989px;
+	height: 40px;
+	background: #f7f7f7;
+}
+#carCon .car_recom .car_recom_title li{
+	float: left;
+	width: 120px;
+	height: 39px;
+	line-height: 39px;
+	border-right: 1px solid #E7E7E7;
+	text-align: center;
+	color: #646464;
+	cursor: pointer;
+}
+#carCon .car_recom .car_recom_title li.carback{
+	height: 39px;
+	line-height: 36px;
+	background: white;
+	border-top: 2px solid #0080ed;
+	border-right: 1px solid white;
+	color: #0080ED;
+	font-weight: bold;
+	background: white;
+}
+#carCon .car_recom_title .car_recom_left{
+	position: absolute;
+	display: block;
+	width: 28px;
+	height: 24px;
+	top: 8px;
+	right: 40px;
+	background: url(../img/shopCar/img05.png) no-repeat -22px -3px;
+	cursor: pointer;
+}
+#carCon .car_recom_title .car_recom_right{
+	position: absolute;
+	display: block;
+	width: 28px;
+	height: 24px;
+	top: 8px;
+	right: 10px;
+	background: url(../img/shopCar/img05.png) no-repeat -70px -3px;
+	cursor: pointer;
+}

@@ -1,0 +1,109 @@
+/*<!--脚步----------------------------------------------------------------------------------->*/
+#footWrap{height: 351px;}
+/*<!--脚步标语----------------------------------------------------------------------------------->*/
+#footWrap .slogan{
+	overflow: hidden;
+	background: #0082f0;
+	border-bottom: 1px solid #d2d2d2;
+	height: 80px;
+}
+#footWrap .slogan dl{
+	width: 1200px;
+	margin: 0 auto;
+}
+#footWrap .slogan dt{
+	float: left;
+	padding: 10px 0;
+}
+#footWrap .slogan dd{
+	float: left;
+	width: 200px;
+	margin-left: 138px;
+	padding: 17px 0;
+}
+#footWrap .slogan dd img{
+	float: left;
+	margin-right: 20px;
+}
+#footWrap .slogan p{
+	color: white;
+}
+#footWrap .slogan .pledge_top{
+	font: 800 20px/26px "Microsoft YaHei";
+}
+#footWrap .slogan .pledge_bottom{
+	font: 400 14px/20px "Microsoft YaHei";
+}
+/*<!--脚步导航----------------------------------------------------------------------------------->*/
+#footWrap .footer_nav{
+	height: 270px;
+	background: #f8f8f8;
+}
+#footWrap .footer_nav .foot_main{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*<!--脚步/帮助------------------------------------------>*/
+#footWrap .foot_main .help_us{
+	float: left;
+	margin: 30px 0 40px 0;
+}
+#footWrap .help_us dl{
+	float: left;
+	width: 125px;
+	height: 200px;
+	padding-left: 30px;
+	border-left: 1px solid #ddd;
+}
+#footWrap .help_us dt{
+	font: 800 16px/30px "Microsoft Yahei";
+	font-weight: bold;
+	color: #000000;
+	margin-bottom: 7px;
+}
+#footWrap .help_us a{
+	line-height: 25px;
+	color: #7a7a7a;
+	font-size: 12px;
+}
+/*<!--脚步/联系------------------------------------------>*/
+#footWrap .contact_us{
+	float: right;
+	width: 252px;
+	margin: 35px 0;
+}
+#footWrap .contact_us .manual_service{
+	padding-bottom: 8px;
+	border-bottom: 1px solid #ddd;
+}
+#footWrap .contact_us .manual_service b{
+	display: block;
+	font: 800 16px/22px "Microsoft Yahei";
+	text-align: center;
+}
+#footWrap .contact_us .manual_service span{
+	display: block;
+	font-family: "宋体";
+	font-size: 12px;
+	color: #666;
+	text-align: center;
+}
+#footWrap .contact_us .contact_number{
+	font: 30px/35px "Times New Roman","Microsoft YaHei";
+	padding: 17px 0;
+	color: #303431;
+	border-bottom: 1px solid #ddd;
+}
+#footWrap .contact_us .contact_number img{
+	float: left;
+	margin: 3px 7px 0 15px;
+}
+#footWrap .contact_us dd{
+	padding-top: 32px;
+	text-align: center;
+}
+#footWrap .contact_us dd a{
+	font: 800 14px/30px "Microsoft YaHei";
+	text-decoration: underline;
+	color: #303331;
+}

@@ -1,0 +1,234 @@
+#head #headWrap,#head #search{
+	width: 990px;
+	margin: 0 auto;
+}
+#head .search_logo{
+	float: left;
+}
+#head .search_separate{
+	float: left;
+	width: 2px;
+	height: 38px;
+	background: #ccc;
+	margin: 15px 12px;
+}
+#head .search_title{
+	float: left;
+	font-size: 20px;
+	font-weight: bold;
+	color: #777;
+	line-height: 63px;
+}
+/*注册主要内容---------------------------------------------------------*/
+#main{
+	width: 990px;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#main .main_left{
+	float: left;
+	width: 560px;
+	border-right: #e7e7e7 solid 1px;
+	margin: 25px 0;
+	padding: 20px 0;
+}
+#main .main_left .le_radio{
+	padding-left: 158px;
+	overflow: hidden;
+}
+#main .le_radio li{
+	float: left;
+	display: inline;
+	height: 16px;
+	line-height: 16px;
+	font-size: 14px;
+	margin-right: 33px;
+}
+#main .le_radio input{
+	float: left;
+	margin-right: 8px;
+	margin-top: 1px;
+}
+#main .main_left .le_main{
+	overflow: hidden;
+}
+#main .le_main ul{
+	margin-top: 25px;
+}
+#main .le_main li{
+	position: relative;
+	margin-top: 4px;
+	overflow: hidden;
+}
+#main .le_main span{
+	float: left;
+	display: inline-block;
+	width: 158px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #737272;
+	text-align: right;
+}
+#main .le_main input{
+	float: left;
+	height: 38px;
+	line-height: 38px;
+	border: #ccc solid 1px;
+	background: white;
+	display: inline;
+	outline: none;
+	box-shadow: inset 0 0 3px rgba(0,0,0,.2);
+}
+#main .le_main i{
+	background: url(../img/register/icon_login.png) no-repeat;
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+}
+#main .le_main p{
+	height: 30px;
+	line-height: 30px;
+	clear: both;
+	margin-left: 158px;
+	color: #666;
+}
+#main .le_main b{
+	font-weight: bold;
+	color: #f02118;
+	font-size: 12px;
+	display: none;
+}
+#main .le_way input{
+	width: 240px;
+	padding: 0 35px 0 5px;
+}
+#main .le_way i{
+	position: absolute;
+	right: 117px;
+	top: 8px;
+}
+#main .le_main .le_Emali{display: none;}
+#main .le_Emali i{background-position: -75px 0;}
+#main .le_code_text input{
+	float: left;
+	display: block;
+	width: 101px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 9px;
+	padding-left: 5px;
+	font-size: 14px;
+}
+#main .le_code_text .code_text_mid{
+	float: left;
+	width: 96px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 9px;
+	font-size: 12px;
+	border: 1px solid #ddd;
+}
+#main .le_code_text .code_text_last{
+	float: left;
+	width: 67px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 9px;
+	font-size: 14px;
+}
+#main .code_text_last a{
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	cursor: pointer;
+	color: #666;
+}
+#main .le_note_code .note_text{
+	float: left;
+	width: 149px;
+	height: 40px;
+	margin-right: 10px;
+}
+#main .note_text input{
+	width: 137px;
+	padding: 0 5px;
+}
+#main .le_note_code .set_code{
+	float: left;
+	width: 123px;
+	height: 40px;
+}
+#main .set_code a{
+	display: block;
+	width: 121px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid #ddd;
+	background: #f4f4f4;
+	color: #333;
+	text-align: center;
+	font-size: 14px;
+}
+#main .le_password input{
+	width: 240px;
+	padding: 0 35px 0 5px;
+}
+#main .le_password i{
+	position: absolute;
+	background-position: -25px 0;
+	right: 117px;
+	top: 8px;
+}
+#main .le_checked{
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	margin-left: 158px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+#main .le_checked input{
+	float: left;
+	margin-top: 1px;
+	margin-right: 5px;
+}
+#main .le_checked a{
+	color: #0082F0;
+}
+#main .le_sub{
+	overflow: hidden;
+	margin-left: 158px;
+	margin-top: 20px;
+}
+#main .le_sub a{
+	width: 292px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	background: #ff9700;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#main .main_right{
+	margin-left: 561px;
+}
+#main .main_right p{
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 34px;
+	color: #747273;
+}
+#main .main_right a{
+	color: #0082f0;
+	font-weight: bold;
+	margin: 0 5px;
+}

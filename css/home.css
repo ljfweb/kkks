@@ -1,0 +1,343 @@
+/*<!--主页轮播图-------------------------------------------------------------------------------->*/
+#bannerBox{width: 100%; height: 450px;overflow: hidden; position: relative;}
+#banner{
+	width: 1920px;
+	height: 450px;
+	left: 50%;
+	position: absolute;
+	margin-left: -960px;
+}
+#pointBox{
+	position: absolute;
+	width: 168px;
+	height: 18px;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -84px;
+}
+#pointBox .point{
+	float: left;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	margin-right: 10px;
+	background: black;
+	text-align: center;
+	line-height: 18px;
+	font-size: 12px;
+	color: white;
+	cursor: pointer;
+}
+#pointBox .point_color{
+	background: blue;
+}
+#arrow{
+	position: absolute;
+	width: 1200px;
+	height: 89px;
+	top: 50%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -600px;
+}
+#arrow #leftArrow{
+	position: absolute;
+	width: 50px;
+	height: 89px;
+	left: 190px;
+	background: url(../img/home/079.png) no-repeat 0 -178px;
+	display: none;
+}
+#arrow #rightArrow{
+	position: absolute;
+	width: 50px;
+	height: 89px;
+	right: 190px;
+	background: url(../img/home/079.png) no-repeat;
+	display: none;
+}
+/*<!--主页主要内容---------------------------------------------------------------------------->*/
+#conMain{
+	width: 1200px;
+	margin: 48px auto 20px;
+}
+/*<!--秒杀------------------------------------------------------------->*/
+#conMain .con_seckill .con_seckill_title{
+	width: 1200px;
+	height: 98px;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+	background: white;
+}
+#conMain .con_seckill_title .seckill_title_menu{
+	position: relative;
+	float: left;
+	width: 33.33%;
+	height: 100%;
+	text-align: center;
+}
+#conMain .seckill_title_menu .seckill_title_time{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#conMain .seckill_title_status .seckill_now{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	color: #d20000;
+}
+#conMain .seckill_title_status .upcoming{
+	display: inline-block;
+	width: 90px;
+	height: 24px;
+	line-height: 24px;
+	background: #7F7F7F;
+	color: white;
+}
+#conMain .seckill_title_status>a{
+	position: relative;
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 10px;
+	margin-left: 10px;
+	background: #d20000;
+	color: white;
+}
+#conMain .seckill_title_status>a>i{
+	position: absolute;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	top: 6px;
+	left: -9px;
+	border-width: 5px 9px 5px 0px;
+	border-style: solid;
+	border-color: #fff #d20000 #fff #fff;
+}
+#conMain .seckill_title_menu .seckill_title_line{
+	position: absolute;
+	width: 236px;
+	height: 5px;
+	background: #d20000;
+	bottom: 0;
+	left: 50%;
+	margin-left: -118px;
+}
+#conMain .con_seckill .seckill_con_box{
+	height: 1200px;
+	height: 396px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#conMain .con_seckill_con .buy_data{
+	position: relative;
+	float: left;
+	width: 265px;
+	height: 396px;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+#conMain .con_seckill_con .buy_data i{
+	position: absolute;
+	width: 265px;
+	height: 396px;
+	top: 0;
+	left: 0;
+}
+#conMain .con_seckill_con .buy_data img{
+	width: 265px;
+	height: 396px;
+}
+#conMain .buy_data .instruction{
+	position: absolute;
+	width: 118px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #fff;
+	top: 213px;
+	left: 50%;
+	margin-left: -59px;
+	font-size: 16px;
+	
+}
+#conMain .buy_data .seckill_begin{
+	position: absolute;
+	width: 265px;
+	height: 79px;
+	padding: 33px 0 15px 0;
+	box-sizing: border-box;
+	top: 246px;
+	left: 50%;
+	margin-left: -132px;
+	font-weight: normal;
+}
+#conMain .buy_data .seckill_date{
+	position: absolute;
+	width: 265px;
+	height: 36px;
+	top: 323px;
+	left: 50%;
+	margin-left: -132px;
+}
+#conMain .seckill_date .seckill_date_time{
+	display: inline-block;	
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	background: #ad0000;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+#conMain .seckill_date .seckill_date_colon{
+	display: inline-block;
+	padding:  0 3px;
+	font-size: 20px;
+}
+#conMain .seckill_con_box .con_seckill_con{overflow: hidden;}
+#conMain .con_seckill_con .buy_goods{float: right;}
+#conMain .con_seckill_con .buy_goods ul{background: white;}
+#conMain .con_seckill_con .buy_goods li{
+	position: relative;
+	float: left;
+	width: 307px;
+	height: 394px;
+	border: 1px solid #ddd;
+	margin-left: -1px;
+	background: white;
+	padding: 20px;
+	box-sizing: border-box;
+}
+#conMain .buy_goods .buy_goods_img{
+	width: 267px;
+	height: 200px;
+}
+#conMain .buy_goods .buy_goods_img img{
+	width: 267px;
+	height: 200px;
+}
+#conMain .buy_goods .buy_goods_int{
+	position: relative;
+	width: 267px;
+	height: 156px;
+}
+#conMain .buy_goods .buy_goods_int h3{
+	font-size: 18px;
+	padding: 10px 0 6px 0;
+}
+#conMain .buy_goods_int .goods_int_price{
+	width: 267px;
+	height: 32px;
+}
+#conMain .buy_goods_int .goods_int_price p:nth-of-type(1){
+	display: inline-block;
+	font-size: 28px;
+	font-weight: bold;
+	color: #D20000;
+	margin-left: 5px;
+}
+#conMain .buy_goods_int .goods_int_price p:nth-of-type(2){
+	display: inline-block;
+	font-size: 15px;
+	color: #6e6e6e;
+	text-decoration: line-through;
+}
+#conMain .buy_goods_int .goods_int_plan{
+	width: 267px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 6px;
+}
+#conMain .goods_int_plan .int_plan_advance{
+	float: left;
+	width: 180px;
+	height: 4px;
+	margin-top: 9px;
+	background: #A0A0A0;
+}
+#conMain .goods_int_plan .int_plan_advance>p{
+	width: 35%;
+	background: #d50000;
+	height: 100%;
+}
+#conMain .buy_goods_int .goods_int_plan>p{
+	float: right;
+	font-size: 15px;
+	color: #6E6E6E;
+}
+#conMain .buy_goods_int .goods_int_now{
+	width: 269px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	background: #D50000;
+}
+/*<!--手机&智能硬件------------------------------------------------------------->*/
+#conMain .con_phone{
+	width: 1200px;
+	height: 810px;
+	margin: 36px auto 0;
+	margin-bottom: 10px;
+}
+#conMain .con_phone dt{
+	font-size: 24px;
+	line-height: 58px;
+}
+#conMain .con_phone ul{margin-left: -12px;}
+#conMain .con_phone li{
+	position: relative;
+	float: left;
+	width: 291px;
+	height: 364px;
+	margin: 0px 0px 12px 12px;
+	background: white;
+	text-align: center;
+}
+#conMain .con_phone .con_phone_img{
+	width: 200px;
+	height: 200px;
+	margin: 40px auto 15px;
+}
+#conMain .con_phone .con_phone_int{
+	width: 291px;
+	height: 67px;
+	padding: 0 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	text-align: center;
+}
+#conMain .con_phone .con_phone_int h3{
+	text-align: center;
+	line-height: 1.6;
+	font-size: 14px;
+}
+#conMain .con_phone .con_phone_desc{
+	font-size: 12px;
+	line-height: 1.4;
+	margin-bottom: 8px;
+	color: #a4a4a4;
+}
+#conMain .con_phone .con_phone_first{
+	position: relative;
+	float: left;
+	width: 594px;
+	height: 364px;
+	margin: 0px 0px 12px 12px;
+	background: white;
+}
+#conMain .con_phone .con_phone_first p{
+	position: absolute;
+	font-size: 24px;
+	top: 125px;
+	left: 27px;
+}

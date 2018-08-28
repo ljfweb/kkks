@@ -1,0 +1,63 @@
+#goTop{
+	position: fixed;
+	width: 61px;
+	bottom: 10px;
+	right: 0;
+}
+#goTop .goTop_icon{
+	float: left;
+	background: white url(../img/home/067.png) no-repeat;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	padding: 5px;
+	margin-left: 11px;
+	cursor: pointer;
+}
+#goTop .stick{
+	width: 44px;
+	height: 30px;
+	background-position: -43px -43px;
+	display: none;
+}
+#goTop .shopCar{
+	float: left;
+	width: 46px;
+	height: 70px;
+	margin-top: 10px;
+	padding-left: 15px;
+	text-align: center;
+	color: white;
+	font: 400 12px/38px "Microsoft YaHei";
+	overflow: hidden;
+	background: url(../img/home/053.gif) no-repeat;
+}
+#goTop .QR_code{
+	width: 44px;
+	height: 38px;
+	margin-top: 10px;
+	background-position: -96px -46px;
+}
+#goTop .expert{
+	width: 44px;
+	height: 38px;
+	margin-top: 10px;
+	background-position: -151px -46px;
+}
+#goTop .top_QuickMark{
+	position: absolute;
+	width: 660px;
+	top: 20px;
+	right: 60px;
+	overflow: hidden;
+	display: none;
+}
+#goTop .top_QuickMark i{
+	float: right;
+	width: 200px;
+	height: 200px;
+	background: white;
+}
+#goTop .top_QuickMark img{
+	width: 200px;
+	height: 200px;
+}

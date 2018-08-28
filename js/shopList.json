@@ -1,0 +1,12 @@
+{
+	"secondKill":[
+					{"pid":"1001","imgsrc":"../img/home/050.jpg","price":"￥7666"},
+	            	{"pid":"1002","name":"诺基亚 7 Plus(Nokia 7 Plus)","introduce":"前后三蔡司认证摄像头","imgsrc":"../img/home/045.jpg","price":"￥2299"},
+	            	{"pid":"1003","name":"小米 MIX2 6GB+64GB  双卡双待","introduce":"全面屏2.0震撼来袭，骁龙835处理器","imgsrc":"../img/home/049.jpg","price":"￥2499"},
+	            	{"pid":"1004","name":"魅蓝 note6 4GB+64GB 全网通","introduce":"高通八核CPU 4000mAh快充电池","imgsrc":"../img/home/051.jpg","price":"￥1049"},
+	            	{"pid":"1005","name":"魅族PRO6s  64GB 双卡双待","introduce":"1200万像素光学防抖","imgsrc":"../img/home/046.jpg","price":"￥1299"},
+	            	{"pid":"1006","name":"华为 nova2S  4GB+64GB 全网通","introduce":"前后双摄，6.0英寸全面屏","imgsrc":"../img/home/047.jpg","price":"￥1299"},
+	            	{"pid":"1007","name":"华为 畅享7S  3GB+32GB  双卡双待","introduce":"5.65英寸全面屏，金属机身","imgsrc":"../img/home/048.jpg","price":"￥1299"}
+	            ]
+
+}
